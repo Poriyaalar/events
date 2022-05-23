@@ -1,0 +1,33 @@
+{
+  "name": "@poriyaalar/js-event",
+  "version": "0.0.1",
+  "description": "Event ",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "babel src --out-dir lib"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Poriyaalar/events.git"
+  },
+  "author": "Poriyaalar",
+  "license": "ISC",
+  "keywords": [
+    "events",
+    "eventEmitter"
+  ],
+  "bugs": {
+    "url": "https://github.com/Poriyaalar/events/issues"
+  },
+  "homepage": "https://github.com/Poriyaalar/events#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
